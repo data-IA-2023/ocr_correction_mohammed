@@ -5,6 +5,11 @@ __VISION_KEY
 __DISCORD_OCR  
 __DATABASE_URL  
 
+# Docker
+
+__docker build -t ocr-correction-mohammed .
+__docker run -p 3000:3000 ocr-correction-mohammed
+
 
 Développer une interface OCR avec Azure
 Assigné
