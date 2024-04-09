@@ -11,6 +11,13 @@ docker build -t ocr-correction-mohammed .
 docker rm ocr-correction-mohammed  
 docker run -p 3000:3000 -e MYVAR=XXX --name ocr-correction-mohammed ocr-correction-mohammed
 
+# Dans Azure:
+
+docker login regocrmohammed.azurecr.io
+docker tag ocr-correction-mohammed regocrmohammed.azurecr.io/ocr-correction-mohammed
+docker push regocrmohammed.azurecr.io/ocr-correction-mohammed
+
+
 # Développer une interface OCR avec Azure
 Assigné
 
