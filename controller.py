@@ -19,5 +19,5 @@ async def read_root(request: Request):
 
 if __name__ == "__main__":
     import uvicorn
-    from controler import app  # Importez l'instance de l'application FastAPI depuis controler.py
+    from controller import app  # Importez l'instance de l'application FastAPI depuis controler.py
     uvicorn.run(app, host="127.0.0.1", port=8000)  # Exécutez l'application FastAPI avec uvicorn
