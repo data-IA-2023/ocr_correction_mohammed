@@ -8,6 +8,7 @@ DATABASE_URL
 # Docker
 
 docker build -t ocr-correction-mohammed .  
+docker rm ocr-correction-mohammed  
 docker run -p 3000:3000 -e MYVAR=XXX --name ocr-correction-mohammed ocr-correction-mohammed
 
 # Développer une interface OCR avec Azure
