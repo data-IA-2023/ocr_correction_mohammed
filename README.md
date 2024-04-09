@@ -1,3 +1,11 @@
+lES VARIABLES D'ENVIREONNEMENT
+
+VISION_ENDPOINT
+VISION_KEY
+DISCORD_OCR
+DATABASE_URL
+
+
 Développer une interface OCR avec Azure
 Assigné
 
