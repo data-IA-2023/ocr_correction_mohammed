@@ -1,16 +1,21 @@
 # UTILISATION DES VARIABLES D'ENVIREONNEMENT
 
-__VISION_ENDPOINT  
-__VISION_KEY  
-__DISCORD_OCR  
-__DATABASE_URL  
+VISION_ENDPOINT  
+VISION_KEY  
+DISCORD_OCR  
+DATABASE_URL  
+
+# Docker
+
+docker build -t ocr-correction-mohammed .  
+docker run -p 3000:3000 ocr-correction-mohammed
 
 # Docker
 
 __docker build -t ocr-correction-mohammed .
 
 
-Développer une interface OCR avec Azure
+# Développer une interface OCR avec Azure
 Assigné
 
 FR
