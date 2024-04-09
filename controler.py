@@ -17,12 +17,7 @@ async def read_root(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
     
 
-
-
-
-
-
-# Si vous souhaitez lancer l'application via le terminal, vous pouvez ajouter ce bloc
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    from controler import app  # Importez l'instance de l'application FastAPI depuis controler.py
+    uvicorn.run(app, host="127.0.0.1", port=8000)  # Exécutez l'application FastAPI avec uvicorn
