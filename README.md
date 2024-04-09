@@ -11,7 +11,7 @@ docker build -t ocr-correction-mohammed .
 docker run -p 3000:3000 ocr-correction-mohammed
 
 
-Développer une interface OCR avec Azure
+#Développer une interface OCR avec Azure
 Assigné
 
 FR
