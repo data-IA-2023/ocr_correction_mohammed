@@ -8,6 +8,10 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+
+static/txt_files/
+ocr.sqlite
+
 build/
 develop-eggs/
 dist/
